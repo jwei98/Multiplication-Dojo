@@ -1,0 +1,10 @@
+ChooseTableIntent I would like to practice multiplication by {Number}
+ChooseTableIntent practice multiplication by {Number}
+ChooseTableIntent practice {Number} table
+ChooseTableIntent multiplication by {Number}
+ChooseTableIntent I would like to practice my {Number} table
+ChooseTableIntent I would like to practice {Number}
+ChooseTableIntent practice {Number}
+ChooseTableIntent {Number} table
+AnswerQuestionIntent {Number}
+AnswerQuestionIntent the answer is {Number}
