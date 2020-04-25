@@ -98,7 +98,7 @@ def get_welcome_response():
 def handle_session_end_request(session):
     card_title = "Session Ended"
     
-    if 'questions_asked' in session['attributes']:
+    if 'questions_asked' in session.get('attributes'):
         speech_output = "Thank you for using the Multiplication Table helper! " \
                     "Have a nice day! "
     else:
