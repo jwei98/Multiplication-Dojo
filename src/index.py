@@ -97,13 +97,8 @@ def get_welcome_response():
 
 def handle_session_end_request(session):
     card_title = "Session Ended"
-    
-    if 'questions_asked' in session.get('attributes'):
-        speech_output = "Thank you for using the Multiplication Table helper! " \
-                    "Have a nice day! "
-    else:
-        speech_output = "Thank you for using the Multiplication Table helper! " \
-                    "Have a nice day! "
+    speech_output = "Thank you for using the Multiplication Table helper! " \
+                "Have a nice day! "
     # Setting this to true ends the session and exits the skill.
     should_end_session = True
     return build_response({}, build_speechlet_response(
